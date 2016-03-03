@@ -1,6 +1,14 @@
-div {
-  color: blue;
-  height: 10px;
-  background-color: purple; }
+nav {
+  background-color: white;
+  overflow: hidden; }
+  nav a {
+    text-decoration: none;
+    font-size: .8em;
+    color: #9F9F9F;
+    padding: 1em; }
+  nav .nav-main {
+    float: left; }
+  nav .nav {
+    float: right; }
 
 /*# sourceMappingURL=main.css.map */

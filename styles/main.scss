@@ -1,6 +1,25 @@
-div{
-	color:blue;
-	height:10px;
-	background-color: purple;
+nav{
+	background-color: white;
+	overflow: hidden;
+	a{
+		text-decoration: none;
+		font-size: .8em;
+		color:#9F9F9F;
+		padding: 1em;
+	}
+	.nav-main{
+			float: left;
+		}
+	.nav{
+		float: right;
 
+	}
+}
+
+.top-image{
+
+}
+
+.simple-pricing{
+	
 }
