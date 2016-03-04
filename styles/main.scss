@@ -112,6 +112,7 @@ nav{
 	text-align: center;
 	margin: 2em .5em .5em;
 	padding: 1.5em;
+
 	.top-text{
 		color:white;
 		font-size: .9em; 
@@ -127,15 +128,31 @@ nav{
 
 }
 .info-text{
-	margin: 3em .5em 2em .5em;
+	margin: 3em 1.1em 1em 1.1em;
+
+	.info-text-title{
+		font-size: .9em;
+		font-weight: bold;
+		letter-spacing: .2em;
+		line-height: 1.5em;
+	}
 	.info-paragraph{
 		font-size: .8em;
 		color: #5A676D;
-		line-height: 1em;
-
-
+		line-height: 1.5em;
 	}
 }
 
-// info-text info-test-title info-paragraph
+footer{
+	background-color: black;
+	color: #666666;
+	font-size: .7em;
+	padding: .5em;
+	text-align: center;
+	line-height: 1.5em;
+	.footer-link{
+		color: white;
+
+	}
+}
 				
