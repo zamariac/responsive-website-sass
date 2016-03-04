@@ -155,4 +155,14 @@ footer{
 
 	}
 }
+// 0-478 479-767 767-978 979-larger
+// when it hits this size these conditions apply
+@media(min-width: 479px){ 
+	nav .nav{
+		float: left;
+	} 
+
+	
+}
+
 				
