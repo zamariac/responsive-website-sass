@@ -23,7 +23,7 @@ nav {
 .personal-box {
   background-color: #519251;
   text-align: center;
-  margin: 2em .5em .5em;
+  margin: 2em .5em 0 .5em;
   padding: 1.5em; }
   .personal-box .top-text {
     color: white;
@@ -52,7 +52,7 @@ nav {
   border-bottom: .1em solid #ECECEC;
   border-left: .1em solid #ECECEC;
   border-right: .1em solid #ECECEC;
-  margin: 0.5em 0.5em;
+  margin: 0 0.5em 0 0.5em;
   text-align: center; }
   .button-box button {
     height: 1.5em;
@@ -70,7 +70,7 @@ nav {
 .business-box {
   background-color: #2B4883;
   text-align: center;
-  margin: 2em .5em .5em;
+  margin: 2em .5em 0 .5em;
   padding: 1.5em; }
   .business-box .top-text {
     color: white;
@@ -85,7 +85,7 @@ nav {
 .enterprise-box {
   background-color: black;
   text-align: center;
-  margin: 2em .5em .5em;
+  margin: 2em .5em 0 .5em;
   padding: 1.5em; }
   .enterprise-box .top-text {
     color: white;
@@ -137,6 +137,10 @@ footer {
 
   .memberships-bottom {
     float: right;
-    width: 33%; } }
+    width: 33%; }
+
+  .info-text {
+    display: inline-block;
+    width: 45%; } }
 
 /*# sourceMappingURL=main.css.map */
