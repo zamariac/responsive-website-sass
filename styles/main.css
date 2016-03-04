@@ -11,4 +11,97 @@ nav {
   nav .nav {
     float: right; }
 
+.top-image {
+  background-image: url(../images/05.jpg); }
+
+.simple-pricing {
+  color: white;
+  font-size: 1.5em;
+  padding: 2em;
+  text-align: center; }
+
+.personal-box {
+  background-color: #519251;
+  text-align: center;
+  margin: 2em .5em .5em;
+  padding: 1.5em; }
+  .personal-box .top-text {
+    color: white;
+    font-size: .9em; }
+  .personal-box .middle-text {
+    color: white;
+    font-size: 5em; }
+  .personal-box .bottom-text {
+    font-size: 1em;
+    color: rgba(51, 92, 51, 0.5); }
+
+.info-main .info-list {
+  background-color: #F7F7F7;
+  text-align: center;
+  color: #899296;
+  font-size: .8em;
+  border-bottom: .1em solid #ECECEC;
+  border-left: .1em solid #ECECEC;
+  border-right: .1em solid #ECECEC;
+  padding: .6em;
+  margin-left: .6em;
+  margin-right: .6em; }
+
+.button-box {
+  background-color: white;
+  border-bottom: .1em solid #ECECEC;
+  border-left: .1em solid #ECECEC;
+  border-right: .1em solid #ECECEC;
+  margin: 0.5em 0.5em;
+  text-align: center; }
+  .button-box button {
+    height: 1.5em;
+    width: 5em;
+    font-size: 1em;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+    border: solid .1em #ECECEC;
+    text-align: center;
+    background-color: white;
+    margin-top: .5em;
+    margin-bottom: 1em; }
+
+.business-box {
+  background-color: #2B4883;
+  text-align: center;
+  margin: 2em .5em .5em;
+  padding: 1.5em; }
+  .business-box .top-text {
+    color: white;
+    font-size: .9em; }
+  .business-box .middle-text {
+    color: white;
+    font-size: 5em; }
+  .business-box .bottom-text {
+    font-size: 1em;
+    color: #93A1C0; }
+
+.enterprise-box {
+  background-color: black;
+  text-align: center;
+  margin: 2em .5em .5em;
+  padding: 1.5em; }
+  .enterprise-box .top-text {
+    color: white;
+    font-size: .9em; }
+  .enterprise-box .middle-text {
+    color: white;
+    font-size: 5em; }
+  .enterprise-box .bottom-text {
+    font-size: 1em;
+    color: #5B5B5B; }
+
+.info-text {
+  margin: 3em .5em 2em .5em; }
+  .info-text .info-paragraph {
+    font-size: .8em;
+    color: #5A676D;
+    line-height: 1em; }
+
 /*# sourceMappingURL=main.css.map */
