@@ -1,0 +1,95 @@
+nav {
+  background-color: white;
+  overflow: hidden; }
+  nav a {
+    text-decoration: none;
+    font-size: .8em;
+    color: #9F9F9F;
+    padding: 1em 2em 1em 1em;
+    display: inline-block; }
+  nav .nav-main {
+    float: left; }
+  nav div {
+    float: left; }
+
+.top-image {
+  background-color: #2E4A83;
+  margin-left: .5em;
+  margin-right: .5em; }
+
+.simple-pricing {
+  color: white;
+  font-size: .8em;
+  letter-spacing: .4em;
+  padding: 5em;
+  text-align: center; }
+
+form {
+  margin: 0 auto;
+  width: 90%;
+  padding: 2em;
+  border-bottom: #CCCCCC solid .1em;
+  font-size: .5em;
+  font-weight: bold;
+  color: black; }
+  form label {
+    text-align: left;
+    display: block;
+    padding-top: 1em;
+    margin-top: .5em;
+    margin-bottom: .5em; }
+  form input {
+    width: 95%;
+    height: 1.6em; }
+  form textarea {
+    width: 95%;
+    height: 10em;
+    border: #CCCCCC .1em solid;
+    padding: .6em;
+    margin-bottom: .5em; }
+
+button {
+  height: 2em;
+  width: 5.5em;
+  font-size: 1em;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  border-radius: 22px;
+  border: solid .1em #ECECEC;
+  text-align: center;
+  background-color: white;
+  margin-top: 1em;
+  margin-bottom: .5em; }
+
+.info-text {
+  padding-left: 1em;
+  padding-right: 1em; }
+  .info-text .info-text-title {
+    font-size: .5em;
+    font-weight: bold;
+    color: black;
+    line-height: 1.5em;
+    margin: 1em  1em 0 1.5em;
+    padding-top: .5em; }
+  .info-text .info-paragraph {
+    font-size: .5em;
+    color: black;
+    line-height: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em; }
+
+footer {
+  margin-top: 1.5em;
+  background-color: black;
+  color: #666666;
+  font-size: .6em;
+  text-align: center; }
+  footer .footer-link {
+    color: white; }
+  footer .footer-top {
+    padding-top: 1em;
+    margin: 0; }
+  footer .footer-bottom {
+    padding-bottom: 1em; }
+
+/*# sourceMappingURL=main.css.map */
