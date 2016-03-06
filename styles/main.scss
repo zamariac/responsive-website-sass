@@ -1,17 +1,19 @@
 nav{
 	background-color: white;
 	overflow: hidden;
+
 	a{
 		text-decoration: none;
 		font-size: .8em;
 		color:#9F9F9F;
-		padding: 1em 2em 1em 2em;
-
+		padding: 1em 2em 1em 1em;
+		display: inline-block;
 	}
 	.nav-main{
-			float: left;
-		}
-	.nav{
+		float: left;
+	}
+
+	div{
 		float: right;
 	}
 }
@@ -147,23 +149,35 @@ footer{
 	background-color: black;
 	color: #666666;
 	font-size: .7em;
-	padding: .5em;
 	text-align: center;
-	line-height: 1.5em;
 	.footer-link{
 		color: white;
-
 	}
+	.footer-top{
+	padding-top: 1em;
+	}
+	.footer-bottom{
+	padding-bottom: 1em;
+	}
+
+
 }
 // 0-478 479-767 767-978 979-larger
 // when it hits this size these conditions apply
 @media(min-width: 479px){ 
 	nav .nav{
 		float: left;
-	} 	
+	} 
+
+	footer{
+		font-size: .9em;
+	}	
 }
 
 @media(min-width: 767px){ 
+	nav div{
+		float: left;
+	}
 	.simple-pricing{
 		font-size: 2.5em;
 		padding: 4em;
@@ -184,6 +198,12 @@ footer{
 		display: inline-block;
 		width: 45%;
 	}
+	footer p{
+		padding: none;
+		display: inline-block;
+		
+	}
+
 
 
 }
