@@ -87,9 +87,30 @@ footer {
   footer .footer-link {
     color: white; }
   footer .footer-top {
-    padding-top: 1em;
-    margin: 0; }
+    padding-top: 1em; }
   footer .footer-bottom {
     padding-bottom: 1em; }
+
+@media (min-width: 767px) {
+  nav div {
+    float: left; }
+
+  .simple-pricing {
+    font-size: 1em;
+    padding: 5em; }
+
+  form {
+    width: 45%;
+    float: left;
+    border: none; }
+
+  .info-text {
+    padding-top: 1em;
+    width: 45%;
+    float: right;
+    display: inline-block; }
+
+  footer {
+    margin-top: 29.5em; } }
 
 /*# sourceMappingURL=main.css.map */
